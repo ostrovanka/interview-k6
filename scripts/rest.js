@@ -52,8 +52,7 @@ export function addObject() {
         }),
         {
             headers: {
-                'content-type': 'application/json',
-                "Authorization": `Bearer dfdfdgth34`
+                'content-type': 'application/json'
             }
         });
 }
@@ -62,8 +61,7 @@ export function getObjectById() {
     http.get(`${endpointUrl}/1`,
         {
             headers: {
-                'content-type': 'application/json',
-                "Authorization": `Bearer dfdfdgth34`
+                'content-type': 'application/json'
             }
         });
 }
